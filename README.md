@@ -23,7 +23,7 @@ data/hollow_core_indices.txt   # Audit trail of excluded outliers
 requirements.txt              # Environment dependencies
 README.md                     # Project documentation
 
-## 🛠️ Installation & SetupClone the repository:Bashgit clone https://github.com/yourusername/skin-lesion-radiomics.git
+## 🛠️ Installation & SetupClone the repository:Bashgit clone https://github.com/basakritu/skin-lesion-radiomics.git
 
 Install dependencies: Bash pip install -r requirements.txt
 
@@ -32,5 +32,5 @@ Data Note: Due to size constraints, the raw HAM10000 dataset is not included. Pl
 ## 📊 Evaluation & Results
 The model is evaluated using a Stratified K-Fold approach to account for class imbalance. Key metrics focused on include:F1-Score: To balance precision and recall across rare classes (e.g., Melanoma).Feature Importance: Identifying which radiomics textures (e.g., Entropy, Sphericity) are most predictive of malignancy.
 
-## 🛠 Technologies UsedImaging: 
+## 🛠 Technologies UsedImaging
 OpenCV, SimpleITK, PILFeature Extraction: PyRadiomicsData Science: Pandas, NumPy, Scikit-LearnVisualization: Matplotlib, SeabornImbalance Handling: Imbalanced-Learn (SMOTE)
